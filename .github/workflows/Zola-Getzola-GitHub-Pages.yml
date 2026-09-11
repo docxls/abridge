@@ -1,6 +1,6 @@
 # Zola-Getzola-GitHub-Pages.yml
 # github.com/shenjuexiao
-# 20260820
+# 20260911
 
 # github.com/getzola/github-pages
 # github.com/getzola/github-pages#build-zola-sites-for-github-pages
@@ -38,6 +38,7 @@ jobs:
       - name: Build Zola + upload Pages artifact
         uses: getzola/github-pages@066755243e69f508fd1a74739fbf1a65f656c790
         with:
+          # zola_version: v0.22.0
           zola_version: v0.23.3
           # working_directory: .
           # output_dir: public
